@@ -12,14 +12,9 @@ export const BrandLogo = () => {
                     </h1>
                 </div>
                 {/* End Title */}
-                <div className="flex justify-center gap-x-6 sm:gap-x-12 lg:gap-x-24">
-                    <img
-                        src={brand1}
-                    />
-
-                    <img
-                        src={brand2}
-                    />
+                <div className="flex flex-wrap justify-center gap-x-6 sm:gap-x-12 lg:gap-x-24">
+                    <img src={brand1} className="w-24 h-auto sm:w-auto sm:h-auto"/>
+                    <img src={brand2} className="w-24 h-auto sm:w-auto sm:h-auto"/>
                 </div>
             </div>
             {/* End Clients */}
