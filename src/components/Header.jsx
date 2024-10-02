@@ -19,7 +19,8 @@ import {
     CursorArrowRaysIcon,
     FingerPrintIcon, HomeModernIcon,
     SquaresPlusIcon, UserGroupIcon,
-    XMarkIcon,
+    XMarkIcon, GlobeAltIcon, IdentificationIcon, InformationCircleIcon,
+    InboxArrowDownIcon,
 } from '@heroicons/react/24/outline'
 import { ChevronDownIcon, PhoneIcon, PlayCircleIcon } from '@heroicons/react/20/solid'
 import logo from '../assets/logo/cropped-5hugst-231x91.gif'
@@ -31,17 +32,17 @@ const products = [
 
 const governance = [
     { name: 'Board of Directors', description: 'Get a better understanding of your traffic', href: '#', icon: UserGroupIcon },
-    { name: 'Management Team', description: 'Speak directly to your customers', href: '#', icon: CursorArrowRaysIcon },
-    { name: 'External Corporate Relations', description: 'Speak directly to your customers', href: '#', icon: CursorArrowRaysIcon },
-    { name: 'Internal Control', description: 'Speak directly to your customers', href: '#', icon: CursorArrowRaysIcon },
+    { name: 'Management Team', description: 'Speak directly to your customers', href: '#', icon: IdentificationIcon },
+    { name: 'External Corporate Relations', description: 'Speak directly to your customers', href: '#', icon: GlobeAltIcon },
+    { name: 'Internal Control', description: 'Speak directly to your customers', href: '#', icon: InformationCircleIcon },
 ]
 
 const investors = [
     { name: 'Our Approach', description: 'Get a better understanding of your traffic', href: '#', icon: ChartPieIcon },
     { name: 'Why Invest With Us?', description: 'Speak directly to your customers', href: '#', icon: CursorArrowRaysIcon },
-    { name: 'Our Market-Real Estate', description: 'Speak directly to your customers', href: '#', icon: CursorArrowRaysIcon },
-    { name: 'Our Market-Hospitality', description: 'Speak directly to your customers', href: '#', icon: CursorArrowRaysIcon },
-    { name: 'Reports', description: 'Speak directly to your customers', href: '#', icon: CursorArrowRaysIcon },
+    { name: 'Our Market-Real Estate', description: 'Speak directly to your customers', href: '#', icon: HomeModernIcon },
+    { name: 'Our Market-Hospitality', description: 'Speak directly to your customers', href: '#', icon: BuildingOfficeIcon },
+    { name: 'Reports', description: 'Speak directly to your customers', href: '#', icon: InboxArrowDownIcon },
 ]
 const callsToAction = [
     { name: 'Watch demo', href: '#', icon: PlayCircleIcon },
